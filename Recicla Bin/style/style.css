@@ -9,7 +9,6 @@
     margin-left: 5%;
 }
 
-
 /* Nav Header*/
 .navheader{
     background-color: darkolivegreen;
@@ -38,16 +37,12 @@
     font-style: normal;
 }
 
-
 .head a{
     color: aliceblue;
     cursor: pointer;
-}
-
-a{
     text-decoration: none;
-
 }
+
 
 .head:hover{
     background-color: darkolivegreen;
@@ -58,4 +53,39 @@ a{
     
 }
 
-/*?
+/*css laricel body*/
+#recicla{
+    width: 100%;
+    margin-left: 0%;
+    opacity: 0.6;
+}
+
+#organograma1{
+    width: 80;
+    margin-left: 15%;
+    
+}
+
+.lixe{
+    width: 130;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    margin-left: 16%;
+}
+
+header{
+    color: rgb(131, 240, 213);
+    text-decoration: none; 
+    text-align: center;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#h1{
+    width: 100;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*fim do body laricel*/
