@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+}
+
+/* imagens*/
+#logoimg{
+    width: 7%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+
+/* Nav Header*/
+.navheader{
+    background-color: darkolivegreen;
+    display: flex;
+    flex: row;
+    box-shadow: 2px 2px 4px gray;
+    height: 100px;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(121, 150, 72);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px ;
+    justify-content: space-between;
+    transition: 0.8s;
+    text-decoration: none;
+    font-style: normal;
+}
+
+
+.head a{
+    color: aliceblue;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.head:hover{
+    background-color: darkolivegreen;
+}
+
+#active{
+    background-color: darkolivegreen;
+    
+}
+
+/*?
