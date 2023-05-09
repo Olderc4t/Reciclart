@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Wix Madefor Text', sans-serif;
 }
 
 /* imagens*/
@@ -54,6 +55,8 @@
 }
 
 /*css laricel body*/
+
+
 #recicla{
     width: 100%;
     margin-left: 0%;
@@ -85,7 +88,21 @@ header{
 #h1{
     width: 100;
     font-size: 80px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(228, 185, 105);
+    margin-top: 20px;
+}
+
+#textsob{
+    margin: 10px 150px 10px 200px;
+    text-align: justify;
+}
+
+.line{
+    background-color: darkolivegreen;
+    padding-top: 1.5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 2px 2px 4px gray;
 }
 
 /*fim do body laricel*/
