@@ -54,7 +54,7 @@
     
 }
 
-/*css laricel body*/
+/*css laricel body sobre*/
 
 
 #recicla{
@@ -89,7 +89,7 @@ header{
     width: 100;
     font-size: 80px;
     color: rgb(228, 185, 105);
-    margin-top: 20px;
+    margin-top: 20 px;
 }
 
 #textsob{
@@ -104,5 +104,24 @@ header{
     margin-right: 100px;
     box-shadow: 2px 2px 4px gray;
 }
-
 /*fim do body laricel*/
+
+
+
+/*inicio body index*/
+#img1{
+    margin-left: 30%;
+    box-shadow: 1px 1px 1px 2px  gray;
+}
+
+#textsob1{
+    margin: 30px 150px 0px 200px;
+    text-align: justify;
+}
+
+#textsob2{
+    text-align: justify;
+    margin: 0px 150px 30px 200px;
+}
+
+/*fim body index*/
