@@ -54,6 +54,7 @@
     
 }
 
+
 /*css laricel body sobre*/
 
 
@@ -110,18 +111,29 @@ header{
 
 /*inicio body index*/
 #img1{
-    margin-left: 30%;
-    box-shadow: 1px 1px 1px 2px  gray;
+    margin-left: 5%;
+    margin-right: 10%
+    
 }
 
 #textsob1{
-    margin: 30px 150px 0px 200px;
     text-align: justify;
+    font-size: 130%;
+    margin-left: 10%;
+    margin-right: 5%;
 }
 
 #textsob2{
     text-align: justify;
     margin: 0px 150px 30px 200px;
+}
+
+
+.hp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2%;
 }
 
 /*fim body index*/
