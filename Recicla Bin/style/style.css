@@ -49,9 +49,43 @@
     background-color: darkolivegreen;
 }
 
-#active{
-    background-color: darkolivegreen;
+
+.head{
+    display: flex;
+    flex-direction: row;
+}
+
+.headu {
+    cursor: pointer;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    margin:  25px  30px 25px 0px;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(121, 150, 72);
+    border-radius: 50% ;
+    transition: 0.8s;
+    text-decoration: none;
     
+}
+
+.headu a{
+    color: rgb(214, 240, 210);
+}
+
+
+.headu:hover{
+    background-color: darkolivegreen;
+}
+
+.headus{
+    margin-left: 45%;
+    
+
+}
+
+#active{
+    background-color: darkolivegreen;   
 }
 
 
