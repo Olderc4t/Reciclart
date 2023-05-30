@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    background-color: bisque;
+}
+
+main{
+    height: 30em;
+}
+
+/*Header*/
+
+header {
+  height: 90px;  
+  background-color: #1c371f;
+  box-shadow: 1px 1px 1px 1.5px gray;
+  padding: 0px 1.5% 0px 1.5%;
+    display: flex;
+}
+
+form{
+    margin-left: 55px;
+}
+
+header input{
+    margin-top: 20%;
+    margin-left: 45%;
+    padding-left: 150%;
+    padding-right: 110%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 5px;
+    border: 2px solid rgb(105, 177, 105);
+    display: flex;
+    align-items: center;
+}
+
+input[type=button]{
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: 0.8s;
+}
+
+.imglogo-header{
+    height: 85px;
+    margin-top: 0.2%;
+}
+
+
+.header_user{
+    display: inline-block;
+	height: 60px;
+	width: 75px;
+	background-color: #29572e;
+	margin: 9% 12% 2% 0px;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 50%;
+    border: #598f5f solid 1px;
+	color: bisque;
+	transition: all 0.5s ease;
+    font-size: 145%; 
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header_user:hover{
+    background-color: #1c371f;
+    opacity: 0.9;
+}
+.header_user a{
+    text-decoration: none;
+    color: bisque;
+}
+
+
+.space{
+    display: flex;
+    flex-direction: row;
+    margin-left: 700px;
+}
+
+
+/*Fim Header*/
+
+
+/*Footer*/
+.footer{
+    box-shadow: 3px 1px 1px 1px rgb(95, 93, 93);
+    padding: 10px 0;
+    background-color: rgb(231, 199, 160);
+    box-sizing: border-box;
+
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 15px;
+    color: rgb(241, 235, 247);
+}
+
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid rgb(221, 172, 172);
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 1;
+    background: rgb(56, 52, 52);
+}
+
+.footer .social a:hover{
+    opacity: 0.75;
+}
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+
+}
+
+.footer ul li a:hover{
+    opacity: 1;
+}
+
+.footer .copy{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(123, 79, 20);
+}
+
+.line{
+    background-color: darkolivegreen;
+    padding-top: 1.5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 2px 2px 4px gray;
+}
+/*DioDio Vendas*/
+body {
+    font-family: 'Gill Sans', sans-serif;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cards {
+    display: block;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, o.22);
+    padding: 30px;
+    margin: 10px;
+    max-height: 300px;
+    width: 300px;
+    transition: all 0.3s ease-out;
+    background-color: rgb(241, 235, 247);
+}
+.cards:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.image {
+    float: right;
+   width: 100%;
+}
+h3{
+    margin: 16px 0;
+}
+p{
+    font-weight: 300;
+    max-width: 300px;
+    font-size: 80%;
+    margin-bottom: 16px;
+}
+.button{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 90%;
+    font-weight: 700;
+    background-color: #1c371f;
+    color:  #fff;
+}
+
+
+/*Fim footer*/
