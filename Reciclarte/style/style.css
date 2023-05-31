@@ -7,9 +7,7 @@ body{
     background-color: bisque;
 }
 
-main{
-    height: 30em;
-}
+
 
 /*Header*/
 
@@ -20,6 +18,9 @@ header {
   padding: 0px 1.5% 0px 1.5%;
     display: flex;
 }
+
+
+
 
 form{
     margin-left: 55px;
@@ -159,8 +160,40 @@ input[type=button]{
 .line{
     background-color: darkolivegreen;
     padding-top: 1.5px;
+    padding-bottom: 1.5px;
     margin-left: 20%;
     margin-right: 20%;
     box-shadow: 2px 2px 4px gray;
 }
 /*Fim footer*/
+
+
+
+/*Guedes v.03*/
+
+.titulo-venda{
+    color: rgb(51, 173, 51);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: normal;
+    margin-left: 15%;
+    }
+
+.parceiro {
+    background-color: whitesmoke;
+    border: 3px solid black ;
+    padding: 30px;
+    width: 450px;
+    height: 450px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    line-height: normal;
+    border-color: rgb(17, 44, 17);
+    border-radius: 10px;
+    opacity: 90%;
+    box-shadow: 0.5px 0.5px 1px 1px rgb(129, 218, 129);
+    margin-top: 5%;     
+    margin-bottom: 5%;
+}
+
+
+  /*fim guedes*/    
