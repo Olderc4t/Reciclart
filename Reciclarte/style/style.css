@@ -7,7 +7,9 @@ body{
     background-color: bisque;
 }
 
-
+main{
+    height: 35em;
+}
 
 /*Header*/
 
@@ -89,6 +91,12 @@ input[type=button]{
 
 /*Fim Header*/
 
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-top: 20%;
+    text-align: center;
+}
 
 /*Footer*/
 .footer{
