@@ -10,9 +10,7 @@ body{
 main{
     height: 35em;
 }
-
 /*Header*/
-
 header {
   height: 90px;  
   background-color: #1c371f;
@@ -20,9 +18,6 @@ header {
   padding: 0px 1.5% 0px 1.5%;
     display: flex;
 }
-
-
-
 
 form{
     margin-left: 55px;
@@ -54,7 +49,6 @@ input[type=button]{
     margin-top: 0.2%;
 }
 
-
 .header_user{
     display: inline-block;
 	height: 60px;
@@ -81,16 +75,31 @@ input[type=button]{
     color: bisque;
 }
 
-
 .space{
     display: flex;
     flex-direction: row;
     margin-left: 700px;
 }
 
-
 /*Fim Header*/
+/*termos de uso*/
+.caixa{
+    border: 2px solid #e0eca9;
+    background-color: rgb(231, 199, 160);
+    margin: 5% 25% 5% 25%;
+    padding: 4% 5% 6% 5%;
+    border-radius: 5%;
+    border: #598f5f 3px solid;
+    box-shadow: 2px 2px 4px gray;
+}
 
+.termo{
+    margin-top: 4%;
+    text-align: center;
+    font-size: 18px;
+}
+
+/*fim termos de uso*/
 .text{
     font-family: Arial, Helvetica, sans-serif;
     margin-left: auto;
@@ -174,34 +183,175 @@ input[type=button]{
     box-shadow: 2px 2px 4px gray;
 }
 /*Fim footer*/
+/*Dio*/
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
+.cards {
+    display: block;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, o.22);
+    padding: 30px;
+    margin: 10px;
+    max-height: 300px;
+    width: 300px;
+    transition: all 0.3s ease-out;
+    background-color: rgb(241, 235, 247);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+.cards:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
 
-/*Guedes v.03*/
+.image {
+    float: right;
+   width: 100%;
+}
+
+.titu{
+    margin: 16px 0;
+}
+
+.descri{
+    font-weight: 300;
+    max-width: 300px;
+    font-size: 80%;
+    margin-bottom: 16px;
+}
+
+.button{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 90%;
+    font-weight: 700;
+    background-color: #1c371f;
+    color:  #fff;
+}
+/*Fim dio*/
+/* Sobre nós*/
+
+.c{
+    border: 2px solid #e0eca9;
+    background-color: rgb(231, 199, 160);
+    margin: 3% 15% 3% 15%;
+    padding: 4% 5% 6% 5%;
+    border-radius: 5%;
+    border: #598f5f 3px solid;
+    box-shadow: 2px 2px 4px gray;
+}
+
+#RECICLART{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-align: center;   
+    font-size: 40px;
+    color: #333;
+}
+
+#description{
+    border: 1px solid rgb(255, 242, 226);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 40px;
+    margin: 5% 15px 5% 15px;
+}
+/* Fim do sobre nós*/
+/*Guedes v.07*/
 
 .titulo-venda{
-    color: rgb(51, 173, 51);
+    color: rgb(22, 97, 22);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: normal;
-    margin-left: 15%;
-    }
+    margin-left: 15%;    
+}
 
 .parceiro {
-    background-color: whitesmoke;
+    background-color:antiquewhite;
     border: 3px solid black ;
-    padding: 30px;
+    padding: 10px;
     width: 450px;
-    height: 450px;
+    height: 460px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: auto;
-    line-height: normal;
+    line-height:normal;
     border-color: rgb(17, 44, 17);
-    border-radius: 10px;
+    border-radius: 15px;
     opacity: 90%;
     box-shadow: 0.5px 0.5px 1px 1px rgb(129, 218, 129);
     margin-top: 5%;     
     margin-bottom: 5%;
+    margin-left: 35%;
+}
+ .ponto{
+    margin: 1% 2% 2% 2%;
 }
 
+
+ #completo{
+    padding-right: 55%;
+} 
+ #cpf {
+    padding-right: 55%;
+}
+ #cnpj {
+    padding-right: 55%;
+}
+ #email {
+    padding-right: 55%;
+}
+ #telefone {
+    padding-right: 55%;
+}
+ #estabelecimento {
+    padding-right: 55%;
+}
+ #vendido {
+    padding-right: 55%;
+}
+
+.acesso {
+    margin: 5%;
+    font-size: 1em;
+    border-radius: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#envi-ar{
+    margin-left: 5%;
+    transition: 0.8s;
+}
+
+#envi-ar:hover{
+    color: whitesmoke;
+    background-color: #29572e;
+}
+
+
+.botao {
+font-size: 1em;
+width: 25%;
+height: 28px;
+background-color: rgb(51, 173, 51);
+color:black;
+border: none;
+border-radius: 5px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+}
+
+.botao:hover {
+    background-color: #598f5f;
+}
+.line {
+    margin: 2%;
+}
 
   /*fim guedes*/    
