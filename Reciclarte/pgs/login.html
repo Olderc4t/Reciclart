@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Footer</title>
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <script src="https://kit.fontawesome.com/e8fb322006.js" crossorigin="anonymous"></script>
 
@@ -22,32 +22,36 @@
                     <a class="header_user" href="./login.html"><i class="fa-solid fa-user"></i></a>
                 </div>                                                                 
     </header>
-       
-        
-       
-    <main></main>
-    <!--footer-->
-    <section class="footer">
-        <div class="social">            
-            <a href="https://www.instagram.com/reciclart_06/" target="_blank"><i class="fab fa-instagram"></i></a>
-        </div>        
-    <ul class="list">
-        <li>
-            <a href="./index.html">Home</a>
-        </li>
-        <li>
-            <a href="./sobre.html">Sobre nós</a>
-        </li>
-        <li>
-            <a href="./termos.html">Termos</a>
-        </li>
-    </ul>
-    <div class="line"></div>
-
-        <p class="copy">
-            Reciclarte&copy;2023
-        </p>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Login</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" required>
+                        <label for="">Password</label>
+                    </div>
+                    <div class="forget">
+                        <label for=""><input type="checkbox">Remember Me  <a href="#">Forget Password</a></label>
+                      
+                    </div>
+                    <div class="btn-login">
+                        <button>Login</button>
+                    </div>
+                    <div class="register">
+                        <p>Don't have a account <a href="#">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
     </section>
-    <!--Fim footer-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
