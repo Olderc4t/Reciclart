@@ -4,29 +4,33 @@
     <meta charset="UTF-8">
     <title>Footer</title>
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/pesquisa.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <script src="https://kit.fontawesome.com/e8fb322006.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
-     <header>
-         <!--Logo-->
-            <img class="logo-header" src="../img/logoaleatoria.png" alt="">
-        <!--barra de pesquisa-->
-            <form action="buscar">
-            <input type="text" placeholder="Oque busca?" name="busca" id="busca">
-            <button type="button" value="enviar"></button>
-            </form>
-                <div class="space">
-                    <a class="header_user" href="./parceiro.html"><i class="fa-solid fa-cart-shopping"></i></a>
-                    <a class="header_user" href="./login.html"><i class="fa-solid fa-user"></i></a>
-                </div>                                                                 
-    </header>
-    <section>
+    <header>
+        <!--Logo-->
+           <img class="logo-header" src="../img/logoaleatoria.png" alt="">
+       <!--barra de pesquisa-->
+       <main id="buscacaixa">
+           <div class="search-container">
+               <label for="search-input" class="search-icon"></label>
+               <input type="text" class="search-input" id="search-input" required />
+           </div>
+       </main>
+          
+               <div class="space">
+                   <a class="header_user" href="./parceiro.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                   <a class="header_user" href="./login.html"><i class="fa-solid fa-user"></i></a>
+               </div>                                                                 
+   </header>
+    <section class="loginbox">
         <div class="form-box">
             <div class="form-value">
                 <form action="">
-                    <h2>Login</h2>
+                    <h2 id="logintxt">Login</h2>
                     <div class="inputbox">
                         <ion-icon name="mail-outline"></ion-icon>
                         <input type="email" required>
@@ -35,22 +39,43 @@
                     <div class="inputbox">
                         <ion-icon name="lock-closed-outline"></ion-icon>
                         <input type="password" required>
-                        <label for="">Password</label>
+                        <label for="">Senha</label>
                     </div>
                     <div class="forget">
-                        <label for=""><input type="checkbox">Remember Me  <a href="#">Forget Password</a></label>
+                        <label for=""><input type="checkbox">Lembre-se de mim <a href="#">Esqueceu a senha?</a></label>
                       
                     </div>
-                    <div class="btn-login">
-                        <button>Login</button>
-                    </div>
+                        <button class="btn-login">Login</button>
                     <div class="register">
-                        <p>Don't have a account <a href="#">Register</a></p>
+                        <p>Não tenho uma conta <a href="#">Registrar-se</a></p>
                     </div>
                 </form>
             </div>
         </div>
     </section>
+       <!--footer-->
+       <section class="footer">
+        <div class="social">            
+            <a href="https://www.instagram.com/reciclart_06/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>        
+    <ul class="list">
+        <li>
+            <a href="./index.html">Home</a>
+        </li>
+        <li>
+            <a href="./sobre.html">Sobre nós</a>
+        </li>
+        <li>
+            <a href="./termos.html">Termos</a>
+        </li>
+    </ul>
+    <div class="line"></div>
+
+        <p class="copy">
+            Reciclarte&copy;2023
+        </p>
+    </section>
+    <!--Fim footer-->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
